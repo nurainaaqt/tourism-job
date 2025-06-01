@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qazaq Tourism Job</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header, footer {
+            background-color: #005580;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+        nav {
+            background-color: #0077a3;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+        }
+        h2 {
+            color: #005580;
+        }
+        form {
+            background: #f1f1f1;
+            padding: 20px;
+            margin-top: 10px;
+            border-radius: 8px;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        input[type="submit"] {
+            background-color: #0077a3;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Qazaq Tourism Job</h1>
+    <p>All Inclusive жүйесіне арналған жұмыс және оқыту платформасы</p>
+</header>
+
+<nav>
+    <a href="#jobseekers">Жұмыс іздеуші</a>
+    <a href="#employers">Жұмыс беруші</a>
+    <a href="#courses">Курстар</a>
+    <a href="#register">Тіркелу</a>
+    <a href="#contact">Байланыс</a>
+</nav>
+
+<div class="container">
+    <section id="jobseekers">
+        <h2>Жұмыс іздеушілерге</h2>
+        <p>Резюме жіберіп, All Inclusive саласында өз орныңызды табыңыз.</p>
+    </section>
+
+    <section id="employers">
+        <h2>Жұмыс берушілерге</h2>
+        <p>Сала мамандарын табу үшін бос жұмыс орындарыңызды жариялаңыз.</p>
+    </section>
+
+    <section id="courses">
+        <h2>Курстар</h2>
+        <p>Келесі курстар қолжетімді:</p>
+        <ul>
+            <li>Housekeeping</li>
+            <li>Reception қызметі</li>
+            <li>F&B</li>
+            <li>Анимация</li>
+        </ul>
+    </section>
+
+    <section id="register">
+        <h2>Тіркелу және резюме жіберу</h2>
+        <form>
+            <label for="name">Атыңыз:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email мекенжайы:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="resume">Резюме (PDF формат):</label>
+            <input type="file" id="resume" name="resume" accept=".pdf">
+
+            <label for="course">Қызықтыратын курс:</label>
+            <select id="course" name="course">
+                <option value="housekeeping">Housekeeping</option>
+                <option value="reception">Reception</option>
+                <option value="fnb">F&B</option>
+                <option value="animation">Анимация</option>
+            </select>
+
+            <input type="submit" value="Жіберу">
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Байланыс</h2>
+        <p>Email: info@qaztourjob.kz | Телефон: +7 (777) 123-4567</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 Qazaq Tourism Job. Барлық құқықтар қорғалған.</p>
+</footer>
+
+</body>
+</html>
